@@ -31,12 +31,16 @@ body {
     margin-left: 30px;
 }
 
-
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
 .logo {
     width: 100px;
     height: 100px;
   }
-
 .navbar a {
     display: block;
     padding: 20px 20px;
@@ -82,10 +86,10 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #9c27b0;
+    border: 2px solid #13ada1;
     color: #fff;
     text-decoration: none;
-    background: #9c27b0;
+    background: #13ada1;
 }
 
 .btn:hover {
@@ -124,13 +128,13 @@ p {
 }
 
 .box-container .box {
-    height: 16rem;
-    width: 18rem;
+    height: 11rem;
+    width: 17rem;
     background: #101010;
     text-align: center;
-    border-radius: 2rem;
+    border-radius: 1rem;
     box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
-    margin: 3rem;   
+    margin: 2rem;   
 }
 
 .box-container .box i {
@@ -140,20 +144,20 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #9c27b0;
+    background: #13ada1;
     font-size: 2rem;
-    margin: 0rem 0;
+    margin: 1rem 0;
 
 }
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #9c27b0;
+    color: #2316dd;
 
 }
 
 .box-container .box p {
-    padding: 0 20px;
+    padding: 0 15px;
     font-size: 16px;
 }
 
