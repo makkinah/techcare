@@ -166,7 +166,7 @@ p {
 }
 
 .price {
-    background: url(img/costos.jpg) no-repeat center;
+    background: url(img/header.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -179,6 +179,82 @@ p {
     padding-bottom: 0;
 }
 
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .boxr {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .boxr i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #13ada1;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .boxr h3 {
+    font-size: 20px;
+    color: #2316dd;
+
+}
+
+.box-container .boxr p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+.boxr {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    position: relative;
+  }
+  
+  .boxr img {
+    display: none;
+    position: absolute;
+    top: -215px;
+    left: -200px;
+    width: 700px;
+    height: 200px;
+    transition: top 15ms ease;
+  }
+  
+  .boxr:hover img {
+    display: block;
+    top: -215px;
+    opacity: 1;
+  }
 
 @media (max-width: 768px) {
 

@@ -174,12 +174,6 @@ p {
     background: #171717;
     padding-bottom: 0;
 }
-.price {
-    background: url(img/costos.jpg) no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-}
 
 
 @media (max-width: 768px) {

@@ -80,8 +80,8 @@ p {
 
 .btn {
     display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
+    margin-top: 20px;
+    padding: 15px 45px;
     border: 2px solid #9c27b0;
     color: #fff;
     text-decoration: none;
@@ -108,6 +108,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-shadow: #1f1d1d;
 }
 
 .sau {
@@ -142,7 +143,7 @@ p {
     color: #fff;
     background: #9c27b0;
     font-size: 2rem;
-    margin: 0rem 0;
+    margin: 1rem 1;
 
 }
 
