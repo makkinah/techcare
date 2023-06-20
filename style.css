@@ -80,9 +80,9 @@ p {
 
 .btn {
     display: inline-block;
-    margin-top: 20px;
-    padding: 15px 45px;
-    border: 2px solid #9c27b0;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #13ada1;
     color: #fff;
     text-decoration: none;
     background: #9c27b0;
@@ -143,7 +143,7 @@ p {
     color: #fff;
     background: #9c27b0;
     font-size: 2rem;
-    margin: 1rem 1;
+    margin: 1rem 0;
 
 }
 
