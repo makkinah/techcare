@@ -169,6 +169,10 @@ p {
     text-align: center;
 }
 
+.contain_price{
+    -webkit-text-stroke: 0.07rem black;
+    color: #ffffff; 
+}
 
 .contact {
     padding-top: 20px;
@@ -176,6 +180,18 @@ p {
     padding-bottom: 0;
 }
 
+.footer{
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+.footer_copyright {
+    color: #3527f7;
+    font-size: 1.9rem; /* o cualquier otro tamaño deseado */
+    text-align: center;
+    opacity: .9;
+
+}
 
 @media (max-width: 768px) {
 
