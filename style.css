@@ -82,10 +82,10 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #13ada1;
+    border: 2px solid #E500E5;
     color: #fff;
     text-decoration: none;
-    background: #9c27b0;
+    background: #E500E5;
 }
 
 .btn:hover {
@@ -141,7 +141,7 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #9c27b0;
+    background: #E500E5;
     font-size: 2rem;
     margin: 1rem 0;
 
@@ -149,7 +149,7 @@ p {
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #9c27b0;
+    color: #E500E5;
 
 }
 
@@ -181,6 +181,7 @@ p {
 }
 
 .footer{
+    color:#FEFF32;
     padding-top: 20px;
     background: #171717;
     padding-bottom: 0;
@@ -192,6 +193,25 @@ p {
     opacity: .9;
 
 }
+.partners{
+    background-color: #171717;
+}
+.solo_todo {
+    background: #171717;
+}
+.st_text {
+    background: #171717;
+}
+.solo_todo_text_title {
+    color: #ffffff;
+    font-size: 5rem;
+    
+}
+.solo_todo_text_1 {
+    font-size: 3rem;
+    
+}
+
 
 @media (max-width: 768px) {
 

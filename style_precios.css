@@ -7,8 +7,11 @@
 }
 
 body {
-    text-align: center;
-    font-family: sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #333;
 }
 
 .head {
@@ -86,10 +89,10 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #13ada1;
+    border: 2px solid #E500E5;
     color: #fff;
     text-decoration: none;
-    background: #13ada1;
+    background: #E500E5;
 }
 
 .btn:hover {
@@ -144,7 +147,7 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #13ada1;
+    background: #E500E5;
     font-size: 2rem;
     margin: 1rem 0;
 
@@ -180,7 +183,7 @@ p {
 }
 
 .content {
-    height: 50vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,8 +204,8 @@ p {
 }
 
 .box-container .boxr {
-    height: 11rem;
-    width: 17rem;
+    height: 18rem;
+    width: 15rem;
     background: #101010;
     text-align: center;
     border-radius: 1rem;
@@ -217,7 +220,7 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #13ada1;
+    background: #E500E5;
     font-size: 2rem;
     margin: 1rem 0;
 
@@ -230,12 +233,12 @@ p {
 }
 
 .box-container .boxr p {
-    padding: 0 15px;
+    padding: 0 30px;
     font-size: 16px;
 }
 .boxr {
     width: 200px;
-    height: 200px;
+    height: 500px;
     background-color: #ccc;
     position: relative;
   }
@@ -267,6 +270,7 @@ p {
 }
 
 .footer{
+    color:#FEFF32;
     padding-top: 20px;
     background: #171717;
     padding-bottom: 0;
@@ -278,6 +282,29 @@ p {
     opacity: .9;
 
 }
+.partners{
+    background-color: #171717;
+}
+.solo_todo {
+    background: #171717;
+}
+.st_text {
+    background: #171717;
+}
+.solo_todo_text_title {
+    color: #ffffff;
+    font-size: 5rem;
+    
+}
+.solo_todo_text_1 {
+    font-size: 3rem;
+    
+}
+
+
+
+
+
 @media (max-width: 768px) {
 
     .title {
