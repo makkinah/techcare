@@ -103,7 +103,12 @@ p {
 
 
 .content {
+
+    
     height: auto;
+
+    height: 50vh;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,9 +166,11 @@ p {
     background: #171717;
 }
 
+
 .aboutr {
     background: #171717;
 }
+
 
 .price {
     background: url(img/costos.jpg) no-repeat center;
@@ -171,6 +178,7 @@ p {
     background-size: cover;
     text-align: center;
 }
+
 
 .price2 {
     background: url(img/apartamento-qualquer-banner-banner.gif) no-repeat center;
@@ -193,15 +201,19 @@ p {
     text-align: center;
 }
 
+
 .contain_price{
     -webkit-text-stroke: 0.07rem black;
     color: #ffffff; 
 }
 
+
 .contain_price2{
     -webkit-text-stroke: 0.07rem black;
     color: #ffffff; 
 }
+
+
 
 .contact {
     padding-top: 20px;
