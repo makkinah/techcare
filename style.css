@@ -1,5 +1,4 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -23,24 +22,20 @@ body {
     z-index: 100;
 }
 
+.logo {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+}
+
 .navbar {
     display: flex;
     margin-right: 10px;
 }
 
-.logo {
-    margin-left: 30px;
-}
-
-
-.logo {
-    width: 100px;
-    height: 100px;
-  }
-
 .navbar a {
     display: block;
-    padding: 20px 20px;
+    padding: 20px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -55,13 +50,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.header {
     height: 60vh !important;
     background: url(img/header.jpg) no-repeat center;
     background-size: cover;
+}
+.text {
+    justify-content:baseline;
 }
 
 .title {
@@ -76,7 +70,8 @@ p {
     margin-bottom: 40px;
     font-size: 18px;
     color: #fff;
-    padding: 0 100px;
+    padding: 1 100px;
+    
 }
 
 .btn {
@@ -91,38 +86,38 @@ p {
 
 .btn:hover {
     background: none;
-    
 }
 
 .btn-home {
     display: flex;
+
 }
 
 .btn-home a {
     margin: 0 10px;
 }
 
-
 .content {
-    height: 66vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-shadow: #1f1d1d;
+    text-shadow: 1px 1px 2px #1f1d1d;
+    background: #101010;
 }
 
 .sau {
     padding: 30px;
-    background: #1f1d1d
+    background: #1f1d1d;
 }
 
 .box-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    text-align: center;
-
+    text-align: left;
+    background: #101010;
 }
 
 .box-container .box {
@@ -131,32 +126,12 @@ p {
     background: #101010;
     text-align: center;
     border-radius: 2rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
-    margin: 3rem;   
+    box-shadow: 0 .3rem 5rem #E500E5;
+    margin: 3rem;
 }
 
-.box-container .box i {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    background: #E500E5;
-    font-size: 2rem;
-    margin: 1rem 0;
-
-}
-
-.box-container .box h3 {
-    font-size: 20px;
-    color: #E500E5;
-
-}
-
-.box-container .box p {
-    padding: 0 20px;
-    font-size: 16px;
+.title-box {
+    color: #E500E5; 
 }
 
 .about {
@@ -212,17 +187,35 @@ p {
     font-size: 3rem;
     
 }
-@keyframes textColorChange {
-    0% { color: #fff; }
-    100% { color: #E500E5; }
-  }
-  
-  .btn:hover {
-   animation: backgroundColorChange 1s ease-in-out, textColorChange 1s ease-in-out;
-  }
 
+.menu-toggle {
+    display: none; /* Inicialmente oculto en pantallas grandes */
+    cursor: pointer;
+    padding: 15px;
+    color: #fff;
+}
 
-@media (max-width: 800px) {
+/* Mostrar el menú desplegable al hacer click en el icono */
+.menu-open {
+    display: block;
+}
+
+.navbar {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #171717;
+    flex-direction: column;
+    padding: 20px; /* Añade un relleno al menú */
+}
+
+.menu-open .navbar {
+    display: flex;
+    /* Resto de estilos */
+}
+@media (min-width: 768px) {
 
     .title {
         margin-bottom: 0;
@@ -234,29 +227,48 @@ p {
     }
 
     .navbar {
-        display: none;
+        display: contents;
     }
    
     
 }
-@media (max-width: 575px) {
-    #central {
-        flex-direction: column;
-    }
-    .title {
-        margin-bottom: 0;
-        font-size: 40px;
-    }
+.menu-toggle {
+    display: none; /* Inicialmente oculto en pantallas grandes */
+    cursor: pointer;
+    padding: 15px;
+    color: #fff;
+}
 
-    .sau {
-        height: 100vh;
-    }
+/* Mostrar el menú desplegable al hacer click en el icono */
+.menu-open {
+    display: block;
+}
+@media (max-width: 768px) {
+
+    /* Resto de estilos existentes para pantallas pequeñas */
 
     .navbar {
-        display: none;
+        display: none; /* Ocultar la barra de navegación en pantallas pequeñas */
     }
-   
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        padding: 15px;
+        color: #fff;
+    }
     
+    .navbar {
+        display: none; /* Inicialmente oculto en pantallas pequeñas */
+    }
+    
+    .menu-open .navbar {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #171717;
+        flex-direction: column; /* Mostrar elementos del menú en columna */
+    }
 }
-
-
