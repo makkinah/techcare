@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #333;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+  }
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #E500E5;
+    color: #fff;
+    text-decoration: none;
+    background: #E500E5;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #E500E5;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #2316dd;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(img/header.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+.content {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .boxr {
+    height: 18rem;
+    width: 15rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .boxr i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #E500E5;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .boxr h3 {
+    font-size: 20px;
+    color: #2316dd;
+
+}
+
+.box-container .boxr p {
+    padding: 0 30px;
+    font-size: 16px;
+}
+.boxr {
+    width: 200px;
+    height: 500px;
+    background-color: #ccc;
+    position: relative;
+  }
+  
+  .boxr img {
+    display: none;
+    position: absolute;
+    top: -215px;
+    left: -200px;
+    width: 700px;
+    height: 200px;
+    transition: top 15ms ease;
+  }
+  
+  .boxr:hover img {
+    display: block;
+    top: -215px;
+    opacity: 1;
+  }
+  .contain_price{
+    -webkit-text-stroke: 0.07rem black;
+    color: #ffffff; 
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+.footer{
+    color:#FEFF32;
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+.footer_copyright {
+    color: #3527f7;
+    font-size: 1.9rem; /* o cualquier otro tamaño deseado */
+    text-align: center;
+    opacity: .9;
+
+}
+.partners{
+    background-color: #171717;
+}
+.solo_todo {
+    background: #171717;
+}
+.st_text {
+    background: #171717;
+}
+.solo_todo_text_title {
+    color: #ffffff;
+    font-size: 5rem;
+    
+}
+.solo_todo_text_1 {
+    font-size: 3rem;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.menu-toggle {
+    display: none; /* Inicialmente oculto en pantallas grandes */
+    cursor: pointer;
+    padding: 15px;
+    color: #fff;
+}
+
+/* Mostrar el menú desplegable al hacer click en el icono */
+.menu-open {
+    display: block;
+}
+
+.navbar {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #171717;
+    flex-direction: column;
+    padding: 20px; /* Añade un relleno al menú */
+}
+
+.menu-open .navbar {
+    display: flex;
+    /* Resto de estilos */
+}
+
+@media (max-width: 768px) {
+
+    /* Resto de estilos existentes para pantallas pequeñas */
+
+    .navbar {
+        display: none; /* Ocultar la barra de navegación en pantallas pequeñas */
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        padding: 15px;
+        color: #fff;
+    }
+    
+    .navbar {
+        display: none; /* Inicialmente oculto en pantallas pequeñas */
+    }
+    
+    .menu-open .navbar {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #171717;
+        flex-direction: column; /* Mostrar elementos del menú en columna */
+    }
+    
+}

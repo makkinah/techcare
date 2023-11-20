@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+    
+}
+.text {
+    justify-content:baseline;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 1 100px;
+    
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #E500E5;
+    color: #fff;
+    text-decoration: none;
+    background: #E500E5;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 2px #101010;
+    background: #101010;
+}
+
+.sau {
+    padding: 30px;
+    background: #101010;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+    background: #101010;
+}
+
+.box-container .box {
+    height: 19rem;
+    width: 19rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .3rem 5rem #E500E5;
+    margin: 3rem;
+}
+
+.title-box {
+    color: #E500E5; 
+}
+
+.about {
+    background: #171717;
+}
+
+
+.price {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.price2 {
+    background: url(img/apartamento-qualquer-banner-banner.gif) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.price3 {
+    background: url(img/whatsapp-wallpaper-thumbnail.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.price4 {
+    background: url(img/gmail_wallepaper.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contain_price{
+    -webkit-text-stroke: 0.07rem black;
+    color: #ffffff; 
+}
+
+.contain_price{
+    -webkit-text-stroke: 0.07rem black;
+    color: #ffffff; 
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+.footer{
+    color:#FEFF32;
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+.footer_copyright {
+    color: #3527f7;
+    font-size: 1.9rem; /* o cualquier otro tamaño deseado */
+    text-align: center;
+    opacity: .9;
+
+}
+.partners{
+    background-color: #171717;
+}
+.solo_todo {
+    background: #171717;
+}
+.st_text {
+    background: #171717;
+}
+.solo_todo_text_title {
+    color: #ffffff;
+    font-size: 5rem;
+    
+}
+.solo_todo_text_1 {
+    font-size: 3rem;
+    
+}
+
+.menu-toggle {
+    display: none; /* Inicialmente oculto en pantallas grandes */
+    cursor: pointer;
+    padding: 15px;
+    color: #fff;
+}
+
+/* Mostrar el menú desplegable al hacer click en el icono */
+.menu-open {
+    display: block;
+}
+
+.navbar {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #171717;
+    flex-direction: column;
+    padding: 20px; /* Añade un relleno al menú */
+}
+
+.menu-open .navbar {
+    display: flex;
+    /* Resto de estilos */
+}
+@media (min-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: contents;
+    }
+   
+    
+}
+.menu-toggle {
+    display: none; /* Inicialmente oculto en pantallas grandes */
+    cursor: pointer;
+    padding: 15px;
+    color: #fff;
+}
+
+/* Mostrar el menú desplegable al hacer click en el icono */
+.menu-open {
+    display: block;
+}
+@media (max-width: 768px) {
+
+    /* Resto de estilos existentes para pantallas pequeñas */
+
+    .navbar {
+        display: none; /* Ocultar la barra de navegación en pantallas pequeñas */
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        padding: 15px;
+        color: #fff;
+    }
+    
+    .navbar {
+        display: none; /* Inicialmente oculto en pantallas pequeñas */
+    }
+    
+    .menu-open .navbar {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #171717;
+        flex-direction: column; /* Mostrar elementos del menú en columna */
+    }
+    
+}
